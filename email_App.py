@@ -1,11 +1,11 @@
 import email
 from email.message import EmailMessage
-
+from app import password
 import smtplib
 import ssl
 
 email_sender='canseverbeyzanur.01@gmail.com'
-email_password='qrumwaidatmtifjn'
+email_password=password
 
 email_recevier='xoxexi8286@xitudy.com'
 
