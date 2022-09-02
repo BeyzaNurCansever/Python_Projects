@@ -1,18 +1,19 @@
 import email
 from email.message import EmailMessage
 from app import password
+from app import mail
 import smtplib
 import ssl
 
-email_sender='canseverbeyzanur.01@gmail.com'
+email_sender=mail
 email_password=password
 
-email_recevier='xoxexi8286@xitudy.com'
+email_recevier=''
 
-subject="i am sending mail through code"
+subject="Python"
 
 body="""
-When you saw this that is mean i successed it
+Successfull!!
 """
 em=EmailMessage()
 em['From']=email_sender
